@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Loan Specialists</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      /* Hide the navigation menu by default */
+      #nav-menu {
+        display: none;
+        list-style: none;
+        position: absolute; /* Add this line */
+        background-color: #35424a; /* Add this line */
+        width: 100%; /* Add this line */
+        z-index: 1; /* Add this line */
+      }
+
+      #nav-menu ul {
+        list-style: none;
+        padding: 0; /* Add this line */
+        margin: 0; /* Add this line */
+        float: right;
+      }
+
+      #nav-menu ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        display: block; /* Add this line */
+        padding: 10px; /* Add this line */
+      }
+
+      /* Style the hamburger icon */
+      #hamburger-icon {
+        position: relative;
+        cursor: pointer;
+        font-size: 30px;
+        float: right;
+        right: 25px;
+        color: white;
+      }
+
+      #logo img {
+        position: absolute;
+        top: 4%;
+        left: 10px;
+        width: 4vw;
+        cursor: pointer;
+      }
+
+      /* Clear floats */
+      .clear {
+        clear: both;
+      }
+
+      /* Header Styles */
+      header {
+        background: #35424a;
+        color: white;
+        padding-top: 30px;
+        min-height: 70px;
+
+        width: 100%;
+      }
+
+      /* Main Styles */
+      main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      #intro,
+      #services,
+      #why-us {
+        margin-bottom: 20px;
+      }
+
+      h1,
+      h2 {
+        color: #35424a;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #35424a;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+
+        overflow: hidden; /* Add this line */
+      }
+
+      footer ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      #footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #footer-links,
+      #footer-contact,
+      #footer-copyright {
+        margin-bottom: 10px;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <!-- Replace with your logo -->
+        <a>
+          <img src="logo.jpg" alt="Home Loan Specialists Logo" />
+        </a>
+      </div>
+      <!-- Hamburger icon -->
+      <div id="hamburger-icon" onclick="toggleMenu()">☰</div>
+      <div class="clear"></div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="apply.html">Apply Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h1>Welcome to Home Loan Specialists</h1>
+        <p>
+          We are dedicated to providing you with the best home loan services.
+          Whether you're a first-time home buyer, looking to upgrade your
+          property, or seeking to refinance your mortgage, we have the right
+          solutions for you.
+        </p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of services to meet your home loan needs:</p>
+        <ul>
+          <li>First Home Buyer Loans</li>
+          <li>Property Upgrade Loans</li>
+          <li>Refinancing</li>
+          <!-- Add more services as needed -->
+        </ul>
+      </section>
+      <section id="why-us">
+        <h2>Why Choose Us?</h2>
+        <p>
+          With our extensive industry knowledge, personalized customer service,
+          and commitment to finding the best loan products for our clients, we
+          are your trusted partner in the home loan process. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Quasi, ipsam eaque. Atque,
+          voluptatibus. Est deleniti earum exercitationem nisi dolor sunt,
+          tempora, quam minima totam recusandae molestiae, nulla sequi
+          distinctio? Tempora, non nesciunt cupiditate odit minima sunt hic
+          autem ea culpa? Asperiores quod natus quidem incidunt consequatur enim
+          nostrum laboriosam dicta sint, optio omnis sequi dolor, quam quisquam
+          qui. Modi quasi doloribus deserunt nisi, ab facere distinctio aut id
+          eaque quidem laborum in, ratione debitis nulla! Quos, obcaecati, quia
+          voluptas eius error deleniti laborum quis necessitatibus, aliquid
+          minima autem fugit. Fugit voluptatem odit ipsam consequatur saepe
+          pariatur quas placeat sapiente provident dicta, non consequuntur nulla
+          corporis necessitatibus. Quod aliquid magnam minima alias consequatur
+          accusamus architecto et placeat id exercitationem non odio quisquam
+          aut, fugiat dicta doloribus. Consectetur soluta voluptatem iusto ullam
+          neque saepe repudiandae similique voluptate aspernatur tenetur maxime
+          placeat maiores eos provident et optio, eligendi facere, eum laborum
+          deserunt molestias nam? Sequi consequuntur explicabo, repudiandae
+          voluptates quaerat odio atque, nobis, enim ratione distinctio in
+          ducimus ipsum praesentium veniam odit porro incidunt maxime mollitia
+          minus pariatur. Tempora saepe ab vitae voluptatibus nostrum similique
+          et consequatur numquam itaque quasi sunt officia est quam nisi
+          asperiores doloribus, culpa ducimus voluptatum esse officiis assumenda
+          sint. Commodi perspiciatis temporibus assumenda id placeat, nihil
+          eaque porro. Perspiciatis, aut nihil maxime consequatur minima illo
+          natus quae reiciendis rem dolor praesentium soluta quis! Dolorum nam
+          fugiat qui quidem ut ab excepturi repellendus quos quo aliquam?
+          Quisquam facilis, et vitae reprehenderit molestias in hic rerum
+          cupiditate numquam ipsam saepe fuga dolores dolore officiis
+          voluptatibus ad neque voluptate mollitia tenetur distinctio ut
+          corrupti. Quas eum nulla velit dolorum dolore quibusdam possimus
+          accusantium fugiat nesciunt, nam repellat aliquid provident sequi,
+          iste esse voluptate modi error tempore? Expedita, nostrum ducimus odit
+          beatae sequi alias doloribus, quis similique ea eos atque, accusamus
+          tempora. Est debitis ipsa fugit esse. Nesciunt vitae ipsam optio porro
+          quod, debitis nam impedit quaerat saepe cumque deserunt quidem quos
+          minima. Earum voluptatem corporis ea voluptatum deserunt omnis
+          quibusdam, esse rerum totam facere assumenda in dolorem fuga
+          reiciendis alias corrupti dolore quidem nostrum! Natus porro,
+          necessitatibus, recusandae doloribus nesciunt eius in suscipit dolore
+          non assumenda nulla quia laudantium quibusdam id ad saepe officia
+          tempore sapiente a quam cumque. Voluptatum iusto maxime a ipsum rerum
+          eum, non corrupti necessitatibus optio provident obcaecati adipisci
+          commodi repellat, doloremque ipsa, expedita velit dolore qui
+          perspiciatis repellendus hic aliquid temporibus. Odio distinctio
+          possimus corrupti cupiditate a culpa eligendi dolorem, nesciunt cum
+          totam et molestias commodi exercitationem, debitis, non alias soluta
+          consectetur. Placeat iure labore obcaecati neque nostrum enim itaque a
+          id magni! Repudiandae quod quidem ad adipisci iste sit eos sint
+          mollitia ex neque! Accusantium atque eius praesentium esse fugiat,
+          deserunt odio magnam optio ratione ipsam animi autem ex a provident
+          expedita, labore corporis? Asperiores nemo facilis illo perferendis
+          fugiat ipsa. Labore, id cupiditate! Distinctio inventore recusandae
+          laborum laudantium dicta. Pariatur, velit natus harum illo ipsa iste
+          ratione consectetur debitis ab praesentium dolor? Voluptates odit
+          provident temporibus dignissimos mollitia, repellendus blanditiis
+          doloribus eius. Aspernatur odio libero, quae voluptate eaque id at.
+          Nulla hic fugit odio sapiente, iure repudiandae vel illum
+          voluptatibus! Doloribus explicabo aliquam porro unde ipsa aperiam
+          laudantium reprehenderit. Vitae, at. Laborum tenetur aut facilis ex
+          molestias. Hic, facere! Voluptas quas dignissimos itaque nesciunt
+          totam omnis fugiat et saepe distinctio velit amet, iste recusandae
+          perspiciatis ipsam aut molestiae error nemo expedita? Perspiciatis
+          iure beatae voluptatibus nemo delectus doloribus, sint ipsa omnis
+          ullam quo cupiditate vitae eius provident tempora quod commodi aliquam
+          asperiores ea vel, incidunt rem fugit tenetur totam officia. Ad magni
+          beatae error corporis quidem numquam sapiente placeat dolores neque in
+          nostrum amet similique totam suscipit, dignissimos assumenda sunt
+          aliquid explicabo odit quod ipsa? Doloremque, minus veniam recusandae
+          nostrum libero voluptatum, excepturi illo autem corporis ab numquam.
+          Eligendi et laboriosam dolore quaerat provident nulla sed sapiente
+          reprehenderit quidem in explicabo, consectetur porro voluptatum nemo
+          corrupti? Sunt possimus sed asperiores earum quas ipsam reiciendis
+          veniam aut cum, odio recusandae rerum ea obcaecati, vel totam in dicta
+          modi? Alias neque ipsam obcaecati recusandae delectus tenetur vitae
+          aspernatur commodi labore at et voluptatum nihil sit culpa possimus
+          impedit quibusdam quos eaque dolor, eum minima necessitatibus?
+          Perferendis,
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-content">
+        <div id="footer-links">
+          <a href="privacy.html">Privacy Policy</a> |
+          <a href="terms.html">Terms of Service</a>
+        </div>
+        <div id="footer-contact">
+          <p>Email: info@yourwebsite.com</p>
+          <p>Phone: 1300 227 566</p>
+        </div>
+        <div id="footer-copyright">
+          <p>© 2024 Home Loan Specialists. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById('nav-menu');
+        if (menu.style.display === 'none') {
+          menu.style.display = 'block';
+          menu.style.float = 'right';
+        } else {
+          menu.style.display = 'none';
+        }
+      }
+    </script>
+  </body>
+</html>
